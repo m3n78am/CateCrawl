@@ -11,4 +11,9 @@ import scrapy
 class CatecrawlItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+	title = scrapy.Field()
+
+
+class JdProductItem(scrapy.Item):
+	title = scrapy.Field()
+	category = scrapy.Field()
